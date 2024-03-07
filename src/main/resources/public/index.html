@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        async function callService(service, params) {
+            const response = await fetch(service + '/' + params);
+            const data = await response.json();
+            document.getElementById(service).innerHTML = data;
+        }
+    </script>
+</head>
+<body>
+<h1>Spark Web Client</h1>
+<form onsubmit="callService('log', this.elements['value'].value); return false;">
+    Mensaje: <input type="text" name="value" required>
+    <button type="submit">Get Msj</button>
+    <div id="log"></div>
+</form>
+
+</body>
+</html>
