@@ -14,6 +14,9 @@ La arquitectura del prototipo consta de los siguientes componentes:
 
 - **MongoDB:** Una instancia de MongoDB utilizada como base de datos para almacenar los logs. Esta base de datos se utiliza para almacenar los registros de logs de manera persistente.
 
+  ![image](https://github.com/Tianrojas/Lab06-AREP/assets/62759668/5a808eaf-da3e-4c79-ad10-759df0dfbacf)
+
+
 ### Estructura del Repositorio
 
 El repositorio consta de dos proyectos:
@@ -43,16 +46,17 @@ El flujo de trabajo del prototipo es el siguiente:
 
 ### Ejemplo de Uso
 
-
+  
 
 ### Instrucciones de Ejecución
 
 Para ejecutar el prototipo, sigue los siguientes pasos:
 
-1. Clona el repositorio en tu máquina local.
+1. Clona el repositorio en tu máquina local desde git o las imagenes desde Doker.
 2. Asegúrate de tener Docker instalado en tu sistema.
 3. Navega a la carpeta del proyecto en tu terminal.
-4. Ejecuta el comando `docker-compose up` para iniciar todos los servicios, una vez ya esten creadas las diferentes imagenes.
-5. Una vez que todos los servicios estén en funcionamiento, la aplicación estará lista para recibir solicitudes de registro de logs.
+4. Compila las imagenes de cada proyecto, para esto debes ejecutar `docker build --tag tianrojas/logroundrobin .` y `docker build --tag tianrojas/roundrobinbd .`
+5. Ejecuta desde la raiz el comando `docker-compose up` para iniciar todos los servicios.
+6. Una vez que todos los servicios estén en funcionamiento, la aplicación estará lista para recibir solicitudes de registro de logs.
 
 ¡Con estas instrucciones podrás ejecutar el prototipo y comenzar a registrar logs de manera distribuida y balanceada!
