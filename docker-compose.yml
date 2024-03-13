@@ -38,7 +38,7 @@ services:
       - mynetwork
 
   logroundrobin:
-    image: logroundrobin:latest
+    image: tianrojas/logroundrobin:latest
     container_name: logroundrobin
     ports:
       - "35000:34000"    
