@@ -55,8 +55,6 @@ Para ejecutar el prototipo, sigue los siguientes pasos:
 1. Clona el repositorio en tu máquina local desde git o las imagenes desde Doker.
 2. Asegúrate de tener Docker instalado en tu sistema.
 3. Navega a la carpeta del proyecto en tu terminal.
-4. Compila las imagenes de cada proyecto, para esto debes ejecutar `docker build --tag tianrojas/logroundrobin .` y `docker build --tag tianrojas/roundrobinbd .`
+4. Compila las imagenes de cada proyecto, para esto debes ejecutar `docker build --tag tianrojas/logroundrobin .` y `docker build --tag tianrojas/roundrobinbd .` respectivamente.
 5. Ejecuta desde la raiz el comando `docker-compose up` para iniciar todos los servicios.
 6. Una vez que todos los servicios estén en funcionamiento, la aplicación estará lista para recibir solicitudes de registro de logs.
-
-¡Con estas instrucciones podrás ejecutar el prototipo y comenzar a registrar logs de manera distribuida y balanceada!
