@@ -16,7 +16,7 @@ const loadGetMsg = (page) => {
             document.getElementById("getrespmsg").innerHTML = "<div>Error al obtener los registros</div>";
         }
     }
-    const url = `http://localhost:35000/logs/${page}`;
+    const url = `/logs/${page}`;
     xhttp.open("GET", url);
     xhttp.send();
 }
@@ -51,7 +51,7 @@ const addLog = () => {
             alert("Error al agregar el log");
         }
     }
-    xhttp.open("POST", "http://localhost:35000/logs");
+    xhttp.open("POST", `/logs`);
     xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
     xhttp.send("message=" + encodeURIComponent(message));
 }
