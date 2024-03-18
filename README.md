@@ -44,9 +44,9 @@ El flujo de trabajo del prototipo es el siguiente:
 3. Cada instancia de RoundRobinMongoDB maneja la solicitud de registro de logs y almacena los datos en la base de datos MongoDB.
 4. Los logs se almacenan de manera persistente en la base de datos MongoDB para su posterior consulta y análisis.
 
-### Ejemplo de Uso
+### Ejemplo de Uso (Hay que descargar ambos videos para visualizar)
 
-  ![Video guiado](https://github.com/Tianrojas/Lab06-AREP/blob/main/Media/2024-03-13%2018-20-05.mp4) /
+  ![Video guiado](https://github.com/Tianrojas/Lab06-AREP/blob/main/Media/2024-03-13%2018-20-05.mp4) \
   ![Despliegue en AWS](https://github.com/Tianrojas/Lab06-AREP/blob/main/Media/2024-03-17%2021-05-28.mp4)
 
 ### Instrucciones de Ejecución
