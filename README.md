@@ -47,6 +47,7 @@ El flujo de trabajo del prototipo es el siguiente:
 ### Ejemplo de Uso
 
   ![Video guiado](https://github.com/Tianrojas/Lab06-AREP/blob/main/2024-03-13%2018-20-05.mp4)
+  ![Despliegue en AWS](https://github.com/Tianrojas/Lab06-AREP/blob/main/2024-03-13%2018-20-05.mp4)
 
 ### Instrucciones de Ejecución
 
